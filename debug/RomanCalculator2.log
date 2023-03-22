@@ -1,0 +1,6 @@
+﻿  mainwindow.cpp
+D:\code\Iron_crosses_projects\Qt\RomanCalculator2\visitors.h(12,33): warning C4100: 'v': unreferenced formal parameter
+D:\code\Iron_crosses_projects\Qt\RomanCalculator2\visitors.h(21,33): warning C4100: 'v': unreferenced formal parameter
+D:\code\Iron_crosses_projects\Qt\RomanCalculator2\visitors.h(30,33): warning C4100: 'v': unreferenced formal parameter
+D:\code\Iron_crosses_projects\Qt\RomanCalculator2\visitors.h(39,33): warning C4100: 'v': unreferenced formal parameter
+  RomanCalculator2.vcxproj -> D:\code\Iron_crosses_projects\Qt\RomanCalculator2\debug\RomanCalculator2.exe
