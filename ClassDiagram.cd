@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Calculator" Collapsed="true">
+    <Position X="6.25" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Calculator::OperationVisitor" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Calculator.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAACAAAAAwAAAAAgAAAAAAQCAAA=</HashCode>
+      <FileName>Calculator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ArabNumberAdapter">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAgABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ArabNumberAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RomeNumberAdapter">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAgAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>RomeNumberAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AddVisitor" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>visitors.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SubtractVisitor" Collapsed="true">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>visitors.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultiplyVisitor" Collapsed="true">
+    <Position X="4.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>visitors.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DivideVisitor" Collapsed="true">
+    <Position X="6" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>visitors.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PowerVisitor" Collapsed="true">
+    <Position X="2.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>visitors.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
